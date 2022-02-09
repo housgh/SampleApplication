@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Common.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Common.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Domain.dll": {}
+        }
+      },
+      "TODO.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TODO.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TODO.Application.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Common.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Common.Domain/Common.Domain.csproj",
+      "msbuildProject": "../Common.Domain/Common.Domain.csproj"
+    },
+    "TODO.Application/1.0.0": {
+      "type": "project",
+      "path": "../TODO.Application/TODO.Application.csproj",
+      "msbuildProject": "../TODO.Application/TODO.Application.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "TODO.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Guest1\\.nuget\\packages\\": {}
@@ -34,7 +71,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj": {
+              "projectPath": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

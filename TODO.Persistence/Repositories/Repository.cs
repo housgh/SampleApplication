@@ -4,11 +4,12 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using TODO.Application.Abstractions;
 using TODO.Persistence.Contexts;
 
 namespace TODO.Persistence.Repositories
 {
-    public class Repository<TEntity, TKey> where TEntity: class
+    public class Repository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity: class
     {
         private readonly TasksDbContext _context;
 
