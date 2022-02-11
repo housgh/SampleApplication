@@ -11,5 +11,6 @@ namespace Common.Domain.Entities
         public string HashedPassword { get; set; }
         public string Mobile { get; set; }
         public DateTime JoinedOn { get; set; }
+        public UserRole Role { get; set; }
     }
 }

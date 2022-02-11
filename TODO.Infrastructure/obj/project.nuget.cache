@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SUphvTYLkWMrsY7tB6gP86AAF4xjxbmUBYA1MHpEcKz00DK76UhFmX1ZEESz217RCM1iuG8pTCN+2N8c1k0ENA==",
+  "dgSpecHash": "we3d2IF3uGIoRCFfGhiM/slWa2NKTz1hrZqoxUH+pr/sLSp99Hvw8OuZUm+LVEfhc+sO4YYkyVNErjYXqgncEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Infrastructure\\TODO.Infrastructure.csproj",
+  "projectFilePath": "D:\\Workspaces\\TODO\\TODO.Infrastructure\\TODO.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

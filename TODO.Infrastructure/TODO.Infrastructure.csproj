@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Third-Party Services" />
+      <ProjectReference Include="..\TODO.Application\TODO.Application.csproj" />
     </ItemGroup>
 
 </Project>

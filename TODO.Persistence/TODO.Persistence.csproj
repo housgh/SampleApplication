@@ -5,15 +5,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Caching" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.13" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Common.Domain\Common.Domain.csproj" />
+      <ProjectReference Include="..\TODO.Application\TODO.Application.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,29 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.API\\TODO.API.csproj": {}
+    "D:\\Workspaces\\TODO\\TODO.API\\TODO.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.API\\TODO.API.csproj": {
+    "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.API\\TODO.API.csproj",
-        "projectName": "TODO.API",
-        "projectPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.API\\TODO.API.csproj",
-        "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.API\\obj\\",
+        "projectUniqueName": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj",
+        "projectName": "Common.Domain",
+        "projectPath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspaces\\TODO\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\H.ghannoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -31,6 +29,65 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Workspaces\\TODO\\TODO.API\\TODO.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspaces\\TODO\\TODO.API\\TODO.API.csproj",
+        "projectName": "TODO.API",
+        "projectPath": "D:\\Workspaces\\TODO\\TODO.API\\TODO.API.csproj",
+        "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspaces\\TODO\\TODO.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj": {
+                "projectPath": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -66,7 +123,66 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj",
+        "projectName": "TODO.Application",
+        "projectPath": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj",
+        "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspaces\\TODO\\TODO.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

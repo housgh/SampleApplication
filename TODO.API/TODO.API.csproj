@@ -12,4 +12,8 @@
       <Folder Include="View Models" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TODO.Application\TODO.Application.csproj" />
+    </ItemGroup>
+
 </Project>
