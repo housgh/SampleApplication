@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj",
+      "projectUniqueName": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj",
       "projectName": "TODO.Application",
-      "projectPath": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj",
+      "projectPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj",
       "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\TODO.Application\\obj\\",
+      "outputPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,8 +57,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj": {
-              "projectPath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj"
+            "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj": {
+              "projectPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj"
             }
           }
         }
@@ -90,5 +90,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

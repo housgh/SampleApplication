@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\TODO.Infrastructure\\TODO.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Infrastructure\\TODO.Infrastructure.csproj",
       "projectName": "TODO.Infrastructure",
-      "projectPath": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\TODO.Infrastructure\\TODO.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Infrastructure\\TODO.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\TODO.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -75,8 +75,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj": {
-              "projectPath": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj"
+            "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj": {
+              "projectPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj"
             }
           }
         }
@@ -108,5 +108,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Infrastructure\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
