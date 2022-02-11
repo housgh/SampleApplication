@@ -8,26 +8,29 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Guest1\\.nuget\\packages\\": {}
+    "C:\\Users\\H.ghannoum\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
       "projectName": "Common.Domain",
-      "projectPath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj",
-      "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspaces\\TODO\\Common.Domain\\obj\\",
+      "projectPath": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
+      "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\H.ghannoum\\Source\\Repos\\SampleApplication\\Common.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\H.ghannoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -61,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
