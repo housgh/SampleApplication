@@ -3,7 +3,7 @@ using TODO.Application.Abstractions;
 
 namespace TODO.Infrastructure.Third_Party_Services
 {
-    public class ExternalDataService : IExternalDataService
+    public class ReadOnlyDataService : IExternalDataService
     {
         public List<object> GetData()
         {
@@ -12,7 +12,7 @@ namespace TODO.Infrastructure.Third_Party_Services
 
         public void PutData(object obj)
         {
-            //do something
+            throw new System.NotImplementedException();
         }
     }
 }

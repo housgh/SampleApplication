@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bTQgk8CAY/vQVrut5iILhT+HonE2b8zeIhA7YGvulZC4wvxC5si3OzU/Uf4imx0npNso4H3CRR3GhXCSBGoh2Q==",
+  "dgSpecHash": "4BirW9GobI8FmANUmZWDjGgomN4By0NPFa8/91ERg7bgiY8m3WOmOPDz1zTwTQ3av26abvP90mLSF44MkUvLcQ==",
   "success": true,
   "projectFilePath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Guest1\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

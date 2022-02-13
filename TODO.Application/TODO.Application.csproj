@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Common.Domain\Common.Domain.csproj" />
+      <ProjectReference Include="..\Common.Utilities\Common.Utilities.csproj" />
     </ItemGroup>
 
 </Project>

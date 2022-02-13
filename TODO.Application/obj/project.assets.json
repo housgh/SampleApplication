@@ -2,28 +2,69 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "ValueOf/2.0.27": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ValueOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ValueOf.dll": {}
+        }
+      },
       "Common.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ValueOf": "2.0.27"
+        },
         "compile": {
           "bin/placeholder/Common.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/Common.Domain.dll": {}
         }
+      },
+      "Common.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Common.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Utilities.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "ValueOf/2.0.27": {
+      "sha512": "wk1n2/F4duzrCRVo5wIdo2n0iAT47oPKkO1Fy36ZtHcL3qTrKsd4DcWSsnb0IoDNGKiCE5MSODd4uttXnOgeBQ==",
+      "type": "package",
+      "path": "valueof/2.0.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/ValueOf.dll",
+        "lib/netstandard2.0/ValueOf.dll",
+        "valueof.2.0.27.nupkg.sha512",
+        "valueof.nuspec"
+      ]
+    },
     "Common.Domain/1.0.0": {
       "type": "project",
       "path": "../Common.Domain/Common.Domain.csproj",
       "msbuildProject": "../Common.Domain/Common.Domain.csproj"
+    },
+    "Common.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Common.Utilities/Common.Utilities.csproj",
+      "msbuildProject": "../Common.Utilities/Common.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Common.Domain >= 1.0.0"
+      "Common.Domain >= 1.0.0",
+      "Common.Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -56,6 +97,9 @@
           "projectReferences": {
             "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj": {
               "projectPath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj"
+            },
+            "D:\\Workspaces\\TODO\\Common.Utilities\\Common.Utilities.csproj": {
+              "projectPath": "D:\\Workspaces\\TODO\\Common.Utilities\\Common.Utilities.csproj"
             }
           }
         }

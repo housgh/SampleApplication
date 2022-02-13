@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "we3d2IF3uGIoRCFfGhiM/slWa2NKTz1hrZqoxUH+pr/sLSp99Hvw8OuZUm+LVEfhc+sO4YYkyVNErjYXqgncEA==",
+  "dgSpecHash": "YFoYwNjVdm3jF8maO3nvkBPsqw5yO+0P8XMaX4c81w0JVVQ/d+hax3Ja9KO9lqQITgi/q4a+UI3t3C3rg9Yg2g==",
   "success": true,
   "projectFilePath": "D:\\Workspaces\\TODO\\TODO.Infrastructure\\TODO.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Guest1\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

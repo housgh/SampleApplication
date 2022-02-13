@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zT908GxDBPEY6fwmFJ7UNCCcoiTdjdkIBQZrv3FOzQ0La68p2Qraoa6+/05HEb44liT3DC5DedwoIc50FWA2TQ==",
+  "dgSpecHash": "Rf2PqJqa/5eHQPXpICR4pmJp9VRI5eXnvivictRmbUNkO+q8IXOk8phrnUzZbWj/rs466YxHaTdfoUsk26t/pw==",
   "success": true,
   "projectFilePath": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Guest1\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

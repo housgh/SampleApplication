@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HzcUMVQ1hBIGx+oNu4WNKdmGzx7bcb3Wjd7t7VL8e4jnUUxxmcCASbisc7nnl8o8/Ol2aAnB/KPVK0UhEJ4j3g==",
+  "dgSpecHash": "KbkGLj+UuKYJbuGDM4sockRB3I5cKJ/g65JULgJVCqEz4uIoiqmqxpSwqA/LF/y/+3p0qKK7RfsBmDj3hEbaRw==",
   "success": true,
   "projectFilePath": "D:\\Workspaces\\TODO\\TODO.Persistence\\TODO.Persistence.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\Guest1\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Guest1\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Guest1\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\Guest1\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\Guest1\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Guest1\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,16 +10,16 @@ namespace TODO.Application.Services
     {
         private readonly IRepository<UserTask, int> _userTaskRepository;
         private readonly IRepository<User, int> _userRepository;
-        private readonly IReadWriteService _rws;
+        private readonly IWriteService _ws;
 
         public UserTaskService(
             IRepository<UserTask, int> userTaskRepository, 
             IRepository<User, int> userRepository,
-            IReadWriteService rws)
+            IWriteService ws)
         {
             _userTaskRepository = userTaskRepository;
             _userRepository = userRepository;
-            _rws = rws;
+            _ws = ws;
         }
         
         public async Task AssignTaskToUser(UserTaskDTO taskDTO, UserDTO userDTO)
@@ -29,7 +29,7 @@ namespace TODO.Application.Services
 
             task.AssignedTo = user;
             _userTaskRepository.UpdateAsync(task);
-            _rws.WriteToFile(JsonSerializer.Serialize(task), "/some/path/to/file");
+            _ws.WriteToFile(JsonSerializer.Serialize(task), "/some/path/to/file");
         }
     }
 }

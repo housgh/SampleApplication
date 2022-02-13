@@ -1,4 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Common.Domain.Entities;
 using TODO.Application.Abstractions;
 using TODO.Application.Models;
 
@@ -6,16 +9,23 @@ namespace TODO.Application.Services
 {
     public class ProjectService : IProjectService
     {
-        private readonly List<ProjectDTO> projects = new List<ProjectDTO>()
+        private readonly IRepository<Project, int> _repository;
+
+        public ProjectService(IRepository<Project, int> repository)
         {
-            new ProjectDTO(){Id = 1, Name = "Project1", Description = "Some Project", OwnerId = 1},
-            new ProjectDTO(){Id = 2, Name = "Project1", Description = "Some Project", OwnerId = 2},
-            new ProjectDTO(){Id = 3, Name = "Project1", Description = "Some Project", OwnerId = 3},
-        };
+            _repository = repository;
+        }
         
-        public List<ProjectDTO> Get()
+        public async Task<List<ProjectDTO>> Get()
         {
-            return projects;
+            var projects = await _repository.GetAsync();
+            return projects.Select(project => new ProjectDTO()
+            {
+                Id = project.Id,
+                Description = project.Description,
+                Name = project.Description,
+                OwnerId = project.OwnerId
+            }).ToList();
         }
     }
 }

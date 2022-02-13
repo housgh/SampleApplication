@@ -1,11 +1,37 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ValueOf/2.0.27": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ValueOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ValueOf.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ValueOf/2.0.27": {
+      "sha512": "wk1n2/F4duzrCRVo5wIdo2n0iAT47oPKkO1Fy36ZtHcL3qTrKsd4DcWSsnb0IoDNGKiCE5MSODd4uttXnOgeBQ==",
+      "type": "package",
+      "path": "valueof/2.0.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/ValueOf.dll",
+        "lib/netstandard2.0/ValueOf.dll",
+        "valueof.2.0.27.nupkg.sha512",
+        "valueof.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ValueOf >= 2.0.27"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Guest1\\.nuget\\packages\\": {}
@@ -46,6 +72,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "ValueOf": {
+            "target": "Package",
+            "version": "[2.0.27, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
