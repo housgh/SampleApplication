@@ -6,12 +6,5 @@
   "expectedPackageFiles": [
     "C:\\Users\\H.ghannoum\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\repos\\SampleApplication\\Common.Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

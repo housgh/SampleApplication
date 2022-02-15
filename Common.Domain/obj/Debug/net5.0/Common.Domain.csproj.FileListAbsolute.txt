@@ -10,3 +10,15 @@ C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Domain\obj\Debug\net5.
 C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.dll
 C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\ref\Common.Domain.dll
 C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.pdb
+E:\repos\SampleApplication\Common.Domain\bin\Debug\net5.0\Common.Domain.deps.json
+E:\repos\SampleApplication\Common.Domain\bin\Debug\net5.0\Common.Domain.dll
+E:\repos\SampleApplication\Common.Domain\bin\Debug\net5.0\ref\Common.Domain.dll
+E:\repos\SampleApplication\Common.Domain\bin\Debug\net5.0\Common.Domain.pdb
+E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.csprojAssemblyReference.cache
+E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.AssemblyInfoInputs.cache
+E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.AssemblyInfo.cs
+E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.csproj.CoreCompileInputs.cache
+E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.dll
+E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\ref\Common.Domain.dll
+E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.pdb

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TODO.Persistence.Data_Seeding
 {
-    public static class ProjectUserData
+    internal static class ProjectUserData
     {
         public static void SeedProjectUserData(this ModelBuilder modelBuilder)
         {
