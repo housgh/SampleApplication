@@ -1,5 +1,9 @@
+using Common.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TODO.Application.Services;
+using TODO.Persistence.Contexts;
+using TODO.Persistence.Repositories;
 
 namespace TODO.API.Controllers
 {
@@ -8,7 +12,10 @@ namespace TODO.API.Controllers
     {
         public IActionResult Get()
         {
-            var projectService = new ProjectService();
+            var dbOptions = new DbContextOptions<TasksDbContext>();
+            var dbContext = new TasksDbContext(dbOptions);
+            var repository = new Repository<Project, int>(dbContext);
+            var projectService = new ProjectService(repository);
             var projects = projectService.Get();
             return Ok(projects);
         }

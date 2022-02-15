@@ -1,11 +1,37 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ValueOf/2.0.27": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ValueOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ValueOf.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ValueOf/2.0.27": {
+      "sha512": "wk1n2/F4duzrCRVo5wIdo2n0iAT47oPKkO1Fy36ZtHcL3qTrKsd4DcWSsnb0IoDNGKiCE5MSODd4uttXnOgeBQ==",
+      "type": "package",
+      "path": "valueof/2.0.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/ValueOf.dll",
+        "lib/netstandard2.0/ValueOf.dll",
+        "valueof.2.0.27.nupkg.sha512",
+        "valueof.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ValueOf >= 2.0.27"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\H.ghannoum\\.nuget\\packages\\": {},
@@ -49,6 +75,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "ValueOf": {
+            "target": "Package",
+            "version": "[2.0.27, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -67,5 +99,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\repos\\SampleApplication\\Common.Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

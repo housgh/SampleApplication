@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "uh8O+/uCa4FeS+l63FaBbrn3h+onpyf/Y1yKw03GnCSQWWxwXLB3M+rJ4x3SoTtPRGEggMCdEoWHDMHOM5m0wA==",
+  "dgSpecHash": "qiw1kkQu+URQqn3Ggqj/DqircW75NNz7JfMBFx+qtd/6vxEgPnnKGM8kHwKwiRnPJG3RAZEtxo22iJE0HXIPHw==",
   "success": true,
   "projectFilePath": "E:\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\H.ghannoum\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\repos\\SampleApplication\\TODO.Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

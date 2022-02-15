@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6jwIWC6A+nThE+U26Rnnqzn3ng6ylKfb1PBJeF7RogDjiXYu0k8EBjqyWL4YXlcDqRvKCrktOJA4yFu/NVtcKw==",
+  "dgSpecHash": "bYU1Gvtvzv6xHDlDTTELVP3kamhK8Ip1eD1/ftlD46p5e7sPXzXWl4g86XnVC/+g/VH/w593OHUUtvrDJVIscQ==",
   "success": true,
   "projectFilePath": "E:\\repos\\SampleApplication\\TODO.Persistence\\TODO.Persistence.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,15 @@
     "C:\\Users\\H.ghannoum\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\H.ghannoum\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\H.ghannoum\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\H.ghannoum\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\H.ghannoum\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\H.ghannoum\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\repos\\SampleApplication\\TODO.Persistence\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

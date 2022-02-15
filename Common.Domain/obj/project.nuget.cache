@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "jqEC8cpb/P9x1Kk4UnI0QLsiFb2t/kB2HwloAh2e2yFK02o/r/sRELeC4vUzurdXYqbkJlF1RaCbMn2d3HE7zw==",
+  "dgSpecHash": "Isp+7Gs0v/VQLrlJ6/s6JhHQjjLnSN5Tb002V4Aq3omRglVtOW5Bbkn18a/fxpGvC74btEv3yjPT2eZxf6GaVA==",
   "success": true,
   "projectFilePath": "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\H.ghannoum\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\repos\\SampleApplication\\Common.Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
