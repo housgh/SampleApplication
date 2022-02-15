@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YFoYwNjVdm3jF8maO3nvkBPsqw5yO+0P8XMaX4c81w0JVVQ/d+hax3Ja9KO9lqQITgi/q4a+UI3t3C3rg9Yg2g==",
+  "dgSpecHash": "GcPq8nhRfvz97Xmipn4HTwS2iW/xBDeO32tUqz8eHC/uk5GZiUC1MijzNbpk8zjDnsWGa6jmVeGdzKUhaenepA==",
   "success": true,
   "projectFilePath": "D:\\Workspaces\\TODO\\TODO.Infrastructure\\TODO.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Guest1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Guest1\\.nuget\\packages\\valueof\\2.0.27\\valueof.2.0.27.nupkg.sha512"
   ],
   "logs": []

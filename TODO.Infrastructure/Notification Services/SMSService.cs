@@ -2,7 +2,7 @@ using TODO.Application.Abstractions;
 
 namespace TODO.Infrastructure.Notification_Services
 {
-    public class SMSService : ISMSService
+    internal class SMSService : ISMSService
     {
         
     }

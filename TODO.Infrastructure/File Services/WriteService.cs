@@ -3,7 +3,7 @@ using TODO.Application.Abstractions;
 
 namespace TODO.Infrastructure.File_Services
 {
-    public class WriteService : IWriteService
+    internal class WriteService : IWriteService
     {
 
         public void WriteToFile(string content, string filePath)

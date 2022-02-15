@@ -3,7 +3,7 @@ using TODO.Application.Abstractions;
 
 namespace TODO.Infrastructure.Third_Party_Services
 {
-    public class ExternalDataService : IExternalDataService
+    internal class ExternalDataService : IExternalDataService
     {
         public List<object> GetData()
         {

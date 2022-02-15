@@ -4,7 +4,7 @@ using TODO.Persistence.Data_Seeding;
 
 namespace TODO.Persistence.Contexts
 {
-    public class TasksDbContext : DbContext
+    internal class TasksDbContext : DbContext
     {
         public TasksDbContext(DbContextOptions<TasksDbContext> options) : base(options) {}
 
