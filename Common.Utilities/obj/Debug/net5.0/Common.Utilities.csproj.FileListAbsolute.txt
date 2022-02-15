@@ -1,0 +1,12 @@
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\bin\Debug\net5.0\Common.Utilities.deps.json
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\bin\Debug\net5.0\Common.Utilities.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\bin\Debug\net5.0\ref\Common.Utilities.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\bin\Debug\net5.0\Common.Utilities.pdb
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.csprojAssemblyReference.cache
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.AssemblyInfoInputs.cache
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.AssemblyInfo.cs
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\ref\Common.Utilities.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.pdb

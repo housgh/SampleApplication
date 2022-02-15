@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj": {}
+    "E:\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj": {
+    "E:\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj",
+        "projectUniqueName": "E:\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj",
         "projectName": "Common.Utilities.Tests",
-        "projectPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj",
+        "projectPath": "E:\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj",
         "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Utilities.Tests\\obj\\",
+        "outputPath": "E:\\repos\\SampleApplication\\Common.Utilities.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

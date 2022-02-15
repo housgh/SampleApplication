@@ -1,0 +1,17 @@
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\TODO.Persistence.deps.json
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\TODO.Persistence.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\ref\TODO.Persistence.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\TODO.Persistence.pdb
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\Common.Domain.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\TODO.Application.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\Common.Domain.pdb
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\TODO.Application.pdb
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.csprojAssemblyReference.cache
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.AssemblyInfoInputs.cache
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.AssemblyInfo.cs
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.csproj.CopyComplete
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\ref\TODO.Persistence.dll
+C:\Users\H.ghannoum\source\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.pdb

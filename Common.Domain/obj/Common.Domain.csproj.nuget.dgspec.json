@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj": {}
+    "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj": {
+    "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
+        "projectPath": "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
         "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\Common.Domain\\obj\\",
+        "outputPath": "E:\\repos\\SampleApplication\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

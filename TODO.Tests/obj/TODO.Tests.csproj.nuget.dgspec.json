@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj": {}
+    "E:\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj": {
+    "E:\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj",
+        "projectUniqueName": "E:\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj",
         "projectName": "TODO.Tests",
-        "projectPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj",
+        "projectPath": "E:\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj",
         "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\H.ghannoum\\source\\repos\\SampleApplication\\TODO.Tests\\obj\\",
+        "outputPath": "E:\\repos\\SampleApplication\\TODO.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
