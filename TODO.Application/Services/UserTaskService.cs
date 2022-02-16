@@ -28,7 +28,7 @@ namespace TODO.Application.Services
             var user = await _userRepository.GetAsync(userDTO.Id);
 
             task.AssignedTo = user;
-            _userTaskRepository.UpdateAsync(task);
+            await _userTaskRepository.UpdateAsync(task);
             _ws.WriteToFile(JsonSerializer.Serialize(task), "/some/path/to/file");
         }
     }
