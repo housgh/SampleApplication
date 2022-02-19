@@ -22,3 +22,15 @@ E:\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.cs
 E:\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.dll
 E:\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\ref\Common.Utilities.dll
 E:\repos\SampleApplication\Common.Utilities\obj\Debug\net5.0\Common.Utilities.pdb
+D:\Workspaces\TODO\Common.Utilities\bin\Debug\net5.0\Common.Utilities.deps.json
+D:\Workspaces\TODO\Common.Utilities\bin\Debug\net5.0\Common.Utilities.dll
+D:\Workspaces\TODO\Common.Utilities\bin\Debug\net5.0\ref\Common.Utilities.dll
+D:\Workspaces\TODO\Common.Utilities\bin\Debug\net5.0\Common.Utilities.pdb
+D:\Workspaces\TODO\Common.Utilities\obj\Debug\net5.0\Common.Utilities.csprojAssemblyReference.cache
+D:\Workspaces\TODO\Common.Utilities\obj\Debug\net5.0\Common.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\TODO\Common.Utilities\obj\Debug\net5.0\Common.Utilities.AssemblyInfoInputs.cache
+D:\Workspaces\TODO\Common.Utilities\obj\Debug\net5.0\Common.Utilities.AssemblyInfo.cs
+D:\Workspaces\TODO\Common.Utilities\obj\Debug\net5.0\Common.Utilities.csproj.CoreCompileInputs.cache
+D:\Workspaces\TODO\Common.Utilities\obj\Debug\net5.0\Common.Utilities.dll
+D:\Workspaces\TODO\Common.Utilities\obj\Debug\net5.0\ref\Common.Utilities.dll
+D:\Workspaces\TODO\Common.Utilities\obj\Debug\net5.0\Common.Utilities.pdb

@@ -16,7 +16,7 @@ namespace TODO.Persistence.Data_Seeding
                 },
                 new Project()
                 {
-                    Id = 1, Name = "Sample Project 2", Description = "A sample project that does nothing", OwnerId = 2
+                    Id = 2, Name = "Sample Project 2", Description = "A sample project that does nothing", OwnerId = 2
                 }
             });
         }

@@ -39,6 +39,9 @@
       "Common.Utilities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
         "compile": {
           "bin/placeholder/Common.Utilities.dll": {}
         },

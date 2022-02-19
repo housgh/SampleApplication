@@ -8,6 +8,7 @@ using TODO.Application.Models;
 namespace TODO.API.Controllers
 {
     [ApiController]
+    [Route("api/[Controller]")]
     public class UserController : Controller
     {
         private readonly IUserService _userService;
@@ -16,7 +17,8 @@ namespace TODO.API.Controllers
         {
             _userService = userService;
         }
-
+        
+        [HttpPost]
         public async Task<IActionResult> CreateUser(UserVM userVM)
         {
             var userDTO = new UserDTO()

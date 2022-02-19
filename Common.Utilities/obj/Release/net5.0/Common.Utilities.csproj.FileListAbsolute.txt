@@ -1,0 +1,12 @@
+D:\Workspaces\TODO\Common.Utilities\bin\Release\net5.0\Common.Utilities.deps.json
+D:\Workspaces\TODO\Common.Utilities\bin\Release\net5.0\Common.Utilities.dll
+D:\Workspaces\TODO\Common.Utilities\bin\Release\net5.0\ref\Common.Utilities.dll
+D:\Workspaces\TODO\Common.Utilities\bin\Release\net5.0\Common.Utilities.pdb
+D:\Workspaces\TODO\Common.Utilities\obj\Release\net5.0\Common.Utilities.csprojAssemblyReference.cache
+D:\Workspaces\TODO\Common.Utilities\obj\Release\net5.0\Common.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\TODO\Common.Utilities\obj\Release\net5.0\Common.Utilities.AssemblyInfoInputs.cache
+D:\Workspaces\TODO\Common.Utilities\obj\Release\net5.0\Common.Utilities.AssemblyInfo.cs
+D:\Workspaces\TODO\Common.Utilities\obj\Release\net5.0\Common.Utilities.csproj.CoreCompileInputs.cache
+D:\Workspaces\TODO\Common.Utilities\obj\Release\net5.0\Common.Utilities.dll
+D:\Workspaces\TODO\Common.Utilities\obj\Release\net5.0\ref\Common.Utilities.dll
+D:\Workspaces\TODO\Common.Utilities\obj\Release\net5.0\Common.Utilities.pdb
