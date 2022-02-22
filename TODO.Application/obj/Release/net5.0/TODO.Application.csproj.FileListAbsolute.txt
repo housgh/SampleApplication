@@ -1,0 +1,17 @@
+D:\Workspaces\TODO\TODO.Application\bin\Release\net5.0\TODO.Application.deps.json
+D:\Workspaces\TODO\TODO.Application\bin\Release\net5.0\TODO.Application.dll
+D:\Workspaces\TODO\TODO.Application\bin\Release\net5.0\ref\TODO.Application.dll
+D:\Workspaces\TODO\TODO.Application\bin\Release\net5.0\TODO.Application.pdb
+D:\Workspaces\TODO\TODO.Application\bin\Release\net5.0\Common.Domain.dll
+D:\Workspaces\TODO\TODO.Application\bin\Release\net5.0\Common.Utilities.dll
+D:\Workspaces\TODO\TODO.Application\bin\Release\net5.0\Common.Domain.pdb
+D:\Workspaces\TODO\TODO.Application\bin\Release\net5.0\Common.Utilities.pdb
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\TODO.Application.csprojAssemblyReference.cache
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\TODO.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\TODO.Application.AssemblyInfoInputs.cache
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\TODO.Application.AssemblyInfo.cs
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\TODO.Application.csproj.CoreCompileInputs.cache
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\TODO.Application.csproj.CopyComplete
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\TODO.Application.dll
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\ref\TODO.Application.dll
+D:\Workspaces\TODO\TODO.Application\obj\Release\net5.0\TODO.Application.pdb

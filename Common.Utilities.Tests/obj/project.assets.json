@@ -5622,29 +5622,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\H.ghannoum\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Guest1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj",
+      "projectUniqueName": "D:\\Workspaces\\TODO\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj",
       "projectName": "Common.Utilities.Tests",
-      "projectPath": "E:\\repos\\SampleApplication\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj",
-      "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-      "outputPath": "E:\\repos\\SampleApplication\\Common.Utilities.Tests\\obj\\",
+      "projectPath": "D:\\Workspaces\\TODO\\Common.Utilities.Tests\\Common.Utilities.Tests.csproj",
+      "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
+      "outputPath": "D:\\Workspaces\\TODO\\Common.Utilities.Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\H.ghannoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -5700,7 +5697,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

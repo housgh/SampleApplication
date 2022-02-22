@@ -1,10 +1,11 @@
 using Common.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using TODO.Persistence.Data_Seeding;
 
 namespace TODO.Persistence.Contexts
 {
-    internal class TasksDbContext : DbContext
+    public class TasksDbContext : DbContext
     {
         public TasksDbContext(DbContextOptions<TasksDbContext> options) : base(options) {}
 
@@ -18,6 +19,10 @@ namespace TODO.Persistence.Contexts
             modelBuilder.SeedUserData();
             modelBuilder.SeedProjectData();
             modelBuilder.SeedProjectUserData();
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+            }
             base.OnModelCreating(modelBuilder);
         }
     }

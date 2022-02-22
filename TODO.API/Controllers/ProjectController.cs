@@ -1,9 +1,11 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TODO.Application.Abstractions;
 
 namespace TODO.API.Controllers
 {
     [ApiController]
+    [Route("api/[Controller]")]
     public class ProjectController : Controller
     {
         private readonly IProjectService _projectService;
@@ -12,10 +14,11 @@ namespace TODO.API.Controllers
         {
             _projectService = projectService;
         }
-
-        public IActionResult Get()
+        
+        [HttpGet]
+        public async Task<IActionResult> Get()
         {
-            var projects = _projectService.Get();
+            var projects = await _projectService.Get();
             return Ok(projects);
         }
     }

@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\Guest1\AppData\Local\JetBrains\Rider2021.3\resharper-host\temp\Rider\vAny\CoverageData\_TODO.1650681432\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=145da6ef_002Da7fb_002D402b_002Dae4a_002Da69420627030/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Get_ShouldReturnAllProjects #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::AC37002C-28F6-4551-A241-7156C6972175::net5.0::TODO.Tests.Unit_Tests.ProjectServiceTests.Get_ShouldReturnAllProjects&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AC37002C-28F6-4551-A241-7156C6972175::net5.0::TODO.Tests.Integration_Tests.ProjectControllerTests.Get_ShouldReturnTwoValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AC37002C-28F6-4551-A241-7156C6972175::net5.0::TODO.Tests.Benchmarks.ProjectServiceBenchmarks.GetProjectsBenchmark&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AC37002C-28F6-4551-A241-7156C6972175::net5.0::TODO.Tests.Benchmarks.BenchmarksRunner.RunBenchmarks&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f50e1da3_002Df845_002D41dc_002D8dfb_002Ddbef578350e4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Get_ShouldReturnAllProjects" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::AC37002C-28F6-4551-A241-7156C6972175::net5.0::TODO.Tests.Unit_Tests.ProjectServiceTests.Get_ShouldReturnAllProjects&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::AC37002C-28F6-4551-A241-7156C6972175::net5.0::TODO.Tests.Integration_Tests.ProjectControllerTests.Get_ShouldReturnTwoValues&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

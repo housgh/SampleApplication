@@ -23,7 +23,7 @@ namespace TODO.Application.Services
             {
                 Id = project.Id,
                 Description = project.Description,
-                Name = project.Description,
+                Name = project.Name,
                 OwnerId = project.OwnerId
             }).ToList();
         }

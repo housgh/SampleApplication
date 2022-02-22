@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Common.Utilities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -40,6 +41,7 @@ namespace TODO.API
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "TODO.API", Version = "v1"}); });
             services.RegisterApplicationServices();
             services.RegisterInfrastructureServices();
+            services.RegisterCommonServices();
             services.RegisterPersistanceServices(Configuration);
         }
 

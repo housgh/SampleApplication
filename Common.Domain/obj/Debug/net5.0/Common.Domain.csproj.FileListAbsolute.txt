@@ -22,3 +22,15 @@ E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.csproj.C
 E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.dll
 E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\ref\Common.Domain.dll
 E:\repos\SampleApplication\Common.Domain\obj\Debug\net5.0\Common.Domain.pdb
+D:\Workspaces\TODO\Common.Domain\bin\Debug\net5.0\Common.Domain.deps.json
+D:\Workspaces\TODO\Common.Domain\bin\Debug\net5.0\Common.Domain.dll
+D:\Workspaces\TODO\Common.Domain\bin\Debug\net5.0\ref\Common.Domain.dll
+D:\Workspaces\TODO\Common.Domain\bin\Debug\net5.0\Common.Domain.pdb
+D:\Workspaces\TODO\Common.Domain\obj\Debug\net5.0\Common.Domain.csprojAssemblyReference.cache
+D:\Workspaces\TODO\Common.Domain\obj\Debug\net5.0\Common.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\TODO\Common.Domain\obj\Debug\net5.0\Common.Domain.AssemblyInfoInputs.cache
+D:\Workspaces\TODO\Common.Domain\obj\Debug\net5.0\Common.Domain.AssemblyInfo.cs
+D:\Workspaces\TODO\Common.Domain\obj\Debug\net5.0\Common.Domain.csproj.CoreCompileInputs.cache
+D:\Workspaces\TODO\Common.Domain\obj\Debug\net5.0\Common.Domain.dll
+D:\Workspaces\TODO\Common.Domain\obj\Debug\net5.0\ref\Common.Domain.dll
+D:\Workspaces\TODO\Common.Domain\obj\Debug\net5.0\Common.Domain.pdb

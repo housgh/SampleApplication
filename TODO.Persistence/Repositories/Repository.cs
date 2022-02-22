@@ -9,7 +9,7 @@ using TODO.Persistence.Contexts;
 
 namespace TODO.Persistence.Repositories
 {
-    internal class Repository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity: class
+    public class Repository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity: class
     {
         private readonly TasksDbContext _context;
 

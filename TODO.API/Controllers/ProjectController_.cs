@@ -8,8 +8,10 @@ using TODO.Persistence.Repositories;
 namespace TODO.API.Controllers
 {
     [ApiController]
+    [Route("api/[Controller]")]
     public class ProjectController_ : Controller
     {
+        [HttpGet]
         public IActionResult Get()
         {
             var dbOptions = new DbContextOptions<TasksDbContext>();

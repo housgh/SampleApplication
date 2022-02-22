@@ -1,29 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\repos\\SampleApplication\\TODO.Persistence\\TODO.Persistence.csproj": {}
+    "D:\\Workspaces\\TODO\\TODO.Persistence\\TODO.Persistence.csproj": {}
   },
   "projects": {
-    "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj": {
+    "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj",
-        "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-        "outputPath": "E:\\repos\\SampleApplication\\Common.Domain\\obj\\",
+        "projectPath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspaces\\TODO\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\H.ghannoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -63,30 +61,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\repos\\SampleApplication\\Common.Utilities\\Common.Utilities.csproj": {
+    "D:\\Workspaces\\TODO\\Common.Utilities\\Common.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos\\SampleApplication\\Common.Utilities\\Common.Utilities.csproj",
+        "projectUniqueName": "D:\\Workspaces\\TODO\\Common.Utilities\\Common.Utilities.csproj",
         "projectName": "Common.Utilities",
-        "projectPath": "E:\\repos\\SampleApplication\\Common.Utilities\\Common.Utilities.csproj",
-        "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-        "outputPath": "E:\\repos\\SampleApplication\\Common.Utilities\\obj\\",
+        "projectPath": "D:\\Workspaces\\TODO\\Common.Utilities\\Common.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspaces\\TODO\\Common.Utilities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\H.ghannoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -105,6 +101,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -120,30 +122,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj": {
+    "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj",
+        "projectUniqueName": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj",
         "projectName": "TODO.Application",
-        "projectPath": "E:\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj",
-        "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-        "outputPath": "E:\\repos\\SampleApplication\\TODO.Application\\obj\\",
+        "projectPath": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj",
+        "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspaces\\TODO\\TODO.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\H.ghannoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -151,11 +151,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj"
+              "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj"
               },
-              "E:\\repos\\SampleApplication\\Common.Utilities\\Common.Utilities.csproj": {
-                "projectPath": "E:\\repos\\SampleApplication\\Common.Utilities\\Common.Utilities.csproj"
+              "D:\\Workspaces\\TODO\\Common.Utilities\\Common.Utilities.csproj": {
+                "projectPath": "D:\\Workspaces\\TODO\\Common.Utilities\\Common.Utilities.csproj"
               }
             }
           }
@@ -190,30 +190,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\repos\\SampleApplication\\TODO.Persistence\\TODO.Persistence.csproj": {
+    "D:\\Workspaces\\TODO\\TODO.Persistence\\TODO.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos\\SampleApplication\\TODO.Persistence\\TODO.Persistence.csproj",
+        "projectUniqueName": "D:\\Workspaces\\TODO\\TODO.Persistence\\TODO.Persistence.csproj",
         "projectName": "TODO.Persistence",
-        "projectPath": "E:\\repos\\SampleApplication\\TODO.Persistence\\TODO.Persistence.csproj",
-        "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
-        "outputPath": "E:\\repos\\SampleApplication\\TODO.Persistence\\obj\\",
+        "projectPath": "D:\\Workspaces\\TODO\\TODO.Persistence\\TODO.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspaces\\TODO\\TODO.Persistence\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\H.ghannoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -221,11 +219,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "E:\\repos\\SampleApplication\\Common.Domain\\Common.Domain.csproj"
+              "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Workspaces\\TODO\\Common.Domain\\Common.Domain.csproj"
               },
-              "E:\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj": {
-                "projectPath": "E:\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj"
+              "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj": {
+                "projectPath": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj"
               }
             }
           }
@@ -244,9 +242,21 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
             }
           },
           "imports": [
@@ -264,7 +274,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
