@@ -10478,26 +10478,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guest1\\.nuget\\packages\\": {}
+    "C:\\Users\\H.ghannoum\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspaces\\TODO\\TODO.Tests\\TODO.Tests.csproj",
+      "projectUniqueName": "E:\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj",
       "projectName": "TODO.Tests",
-      "projectPath": "D:\\Workspaces\\TODO\\TODO.Tests\\TODO.Tests.csproj",
-      "packagesPath": "C:\\Users\\Guest1\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspaces\\TODO\\TODO.Tests\\obj\\",
+      "projectPath": "E:\\repos\\SampleApplication\\TODO.Tests\\TODO.Tests.csproj",
+      "packagesPath": "C:\\Users\\H.ghannoum\\.nuget\\packages\\",
+      "outputPath": "E:\\repos\\SampleApplication\\TODO.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Guest1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\H.ghannoum\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Infragistics\\NuGet\\": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -10505,11 +10508,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Workspaces\\TODO\\TODO.API\\TODO.API.csproj": {
-              "projectPath": "D:\\Workspaces\\TODO\\TODO.API\\TODO.API.csproj"
+            "E:\\repos\\SampleApplication\\TODO.API\\TODO.API.csproj": {
+              "projectPath": "E:\\repos\\SampleApplication\\TODO.API\\TODO.API.csproj"
             },
-            "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj": {
-              "projectPath": "D:\\Workspaces\\TODO\\TODO.Application\\TODO.Application.csproj"
+            "E:\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj": {
+              "projectPath": "E:\\repos\\SampleApplication\\TODO.Application\\TODO.Application.csproj"
             }
           }
         }
@@ -10572,14 +10575,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
