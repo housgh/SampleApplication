@@ -6,12 +6,12 @@ using TODO.Application.Models;
 
 namespace TODO.Application.Services
 {
-    public class UserService : IUserService
+    public class UserService_ : IUserService
     {
         private readonly IRepository<User, int> _repository;
         private readonly IHashingService _hashingService;
 
-        public UserService(IRepository<User, int> repository, IHashingService hashingService)
+        public UserService_(IRepository<User, int> repository, IHashingService hashingService)
         {
             _repository = repository;
             _hashingService = hashingService;
@@ -19,7 +19,7 @@ namespace TODO.Application.Services
 
         public async Task<bool> AddUser(UserDTO userDto)
         {
-            var hashedPassword = _hashingService.HashPassword(userDto.Password);
+            var hashedPassword = HashPassword(userDto.Password);
             var user = new User()
             {
                 Email = userDto.Email.Value,
@@ -30,6 +30,11 @@ namespace TODO.Application.Services
             };
             var rowsAffected = await _repository.AddAsync(user);
             return rowsAffected > 0;
+        }
+
+        private static string HashPassword(string password)
+        {
+            return "Hashed-Password";
         }
     }
 }
