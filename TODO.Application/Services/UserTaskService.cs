@@ -1,3 +1,4 @@
+using System;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Common.Domain.Entities;
@@ -24,6 +25,11 @@ namespace TODO.Application.Services
         
         public async Task AssignTaskToUser(UserTaskDTO taskDTO, UserDTO userDTO)
         {
+            if(userDTO is ReadOnlyUserDTO)
+            {
+                throw new Exception("Task can't be assigned to read only user");
+            }
+
             var task = await _userTaskRepository.GetAsync(taskDTO.Id);
             var user = await _userRepository.GetAsync(userDTO.Id);
 
