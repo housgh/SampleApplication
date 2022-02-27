@@ -11,8 +11,11 @@ namespace TODO.Tests.Integration_Tests
         [Fact]
         public async Task Get_ShouldReturnTwoValues()
         {
+            //Arrange
+            const string requestUrl = "https://localhost:5001/api/Project";
+            
             //Act
-            var response = await _client.GetAsync("https://localhost:5001/api/Project");
+            var response = await _client.GetAsync(requestUrl);
             
             //Assert
             var projects = JsonConvert.DeserializeObject<List<ProjectDTO>>(await response.Content.ReadAsStringAsync());

@@ -2,6 +2,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Common.Domain.Entities;
 using TODO.Application.Abstractions;
+using TODO.Application.Exceptions;
 using TODO.Application.Models;
 
 namespace TODO.Application.Services
@@ -22,13 +23,20 @@ namespace TODO.Application.Services
             _ws = ws;
         }
         
-        public async Task AssignTaskToUser(UserTaskDTO taskDTO, UserDTO userDTO)
+        public async Task AssignTaskToUser(UserTaskDTO taskDto, UserDTO userDto)
         {
-            var task = await _userTaskRepository.GetAsync(taskDTO.Id);
-            var user = await _userRepository.GetAsync(userDTO.Id);
+            var assignedTasks = await _userTaskRepository.FindAllAsync(t => t.AssignedToId == userDto.Id);
+
+            if (assignedTasks.Count == userDto.TasksLimit)
+            {
+                throw new TaskLimitExceededException($"{userDto.Name} is limited to {userDto.TasksLimit} tasks only.");
+            }
+            
+            var task = await _userTaskRepository.GetAsync(taskDto.Id);
+            var user = await _userRepository.GetAsync(userDto.Id);
 
             task.AssignedTo = user;
-            _userTaskRepository.UpdateAsync(task);
+            await _userTaskRepository.UpdateAsync(task);
             _ws.WriteToFile(JsonSerializer.Serialize(task), "/some/path/to/file");
         }
     }
