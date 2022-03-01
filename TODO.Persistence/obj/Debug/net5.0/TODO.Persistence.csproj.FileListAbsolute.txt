@@ -56,3 +56,6 @@ D:\Workspaces\TODO\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.pdb
 D:\Workspaces\TODO\TODO.Persistence\bin\Debug\net5.0\TODO.Persistence.runtimeconfig.json
 D:\Workspaces\TODO\TODO.Persistence\bin\Debug\net5.0\TODO.Persistence.runtimeconfig.dev.json
 D:\Workspaces\TODO\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.genruntimeconfig.cache
+E:\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\TODO.Persistence.runtimeconfig.json
+E:\repos\SampleApplication\TODO.Persistence\bin\Debug\net5.0\TODO.Persistence.runtimeconfig.dev.json
+E:\repos\SampleApplication\TODO.Persistence\obj\Debug\net5.0\TODO.Persistence.genruntimeconfig.cache

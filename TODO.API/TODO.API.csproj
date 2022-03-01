@@ -13,6 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Common.Middlewares\Common.Middlewares.csproj" />
       <ProjectReference Include="..\TODO.Application\TODO.Application.csproj" />
       <ProjectReference Include="..\TODO.Infrastructure\TODO.Infrastructure.csproj" />
       <ProjectReference Include="..\TODO.Persistence\TODO.Persistence.csproj" />

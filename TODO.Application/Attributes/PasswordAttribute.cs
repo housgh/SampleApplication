@@ -5,7 +5,7 @@ namespace TODO.Application.Attributes
 {
     public class PasswordAttribute : ValidationAttribute
     {
-        protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var strValue = value as string;
             if (string.IsNullOrWhiteSpace(strValue))

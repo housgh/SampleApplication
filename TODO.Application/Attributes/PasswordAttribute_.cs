@@ -5,13 +5,13 @@ namespace TODO.Application.Attributes
 {
     public class PasswordAttribute_ : ValidationAttribute
     {
-        protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var strValue = value as string;
             var errorMessage = "";
             if (string.IsNullOrWhiteSpace(strValue))
             {
-                if (strValue.Length < 8)
+                if (strValue.Length > 8)
                 {
                     if (strValue.Any(char.IsDigit))
                     {
@@ -21,8 +21,10 @@ namespace TODO.Application.Attributes
                             {
                                 return ValidationResult.Success;
                             }
-
-                            errorMessage = "Password Must Contain At Least 1 Upper Case Character";
+                            else
+                            {
+                                errorMessage = "Password Must Contain At Least 1 Upper Case Character";
+                            }
                         }
                         else
                         {

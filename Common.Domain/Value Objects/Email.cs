@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 using Common.Domain.Exceptions;
 using ValueOf;
 
-namespace Common.Domain.Value_Objects
+namespace Common.Domain.ValueObjects
 {
     public class Email : ValueOf<string, Email>
     {

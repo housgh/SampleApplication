@@ -12,6 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Common.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\repos\\SampleApplication\\Common.Domain", "Common.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Common.Middlewares", "E:\\repos\\SampleApplication\\Common.Middlewares", "Common.Middlewares.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Common.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\repos\\SampleApplication\\Common.Utilities", "Common.Utilities.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TODO.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\repos\\SampleApplication\\TODO.API", "TODO.API.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TODO.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\repos\\SampleApplication\\TODO.Application", "TODO.Application.csproj", "0")]
